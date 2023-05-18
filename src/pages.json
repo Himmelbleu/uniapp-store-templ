@@ -1,0 +1,98 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/index/detail",
+      "style": {
+        "navigationBarTitleText": "唐卡详细"
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/custom/custom",
+      "style": {
+        "navigationBarTitleText": "个性化定制"
+      }
+    },
+    {
+      "path": "pages/cart/cart",
+      "style": {
+        "navigationBarTitleText": "购物车"
+      }
+    },
+    {
+      "path": "pages/community/community",
+      "style": {
+        "navigationBarTitleText": "社区"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "演示",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "usingComponents": {
+      "collapse-tree-item": "/components/collapse-tree-item"
+    },
+    "renderingMode": "seperated",
+    "pageOrientation": "portrait",
+    "rpxCalcMaxDeviceWidth": 960,
+    "rpxCalcBaseDeviceWidth": 375,
+    "rpxCalcIncludeWidth": 750
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#6D99DE",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/images/bar/house.png",
+        "selectedIconPath": "./static/images/bar/house.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/custom/custom",
+        "iconPath": "static/images/bar/custom.png",
+        "selectedIconPath": "static/images/bar/custom.png",
+        "text": "定制"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/images/bar/shop.png",
+        "selectedIconPath": "static/images/bar/shop.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "iconPath": "static/images/bar/community.png",
+        "selectedIconPath": "static/images/bar/community.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/bar/my.png",
+        "selectedIconPath": "static/images/bar/my.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
