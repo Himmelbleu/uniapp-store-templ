@@ -62,17 +62,17 @@ const thangkaList = [
     desc: "pqrstuvw"
   },
   {
-    src: "https://img0.baidu.com/it/u=2897304993,2842510785&fm=253&fmt=auto&app=138&f=JPEG?w=791&h=500",
+    src: "https://img1.artron.net/auction/2019/art514350/d/art5143500013.jpg",
     title: "one3",
     desc: "pqrstuvw"
   },
   {
-    src: "https://img0.baidu.com/it/u=2897304993,2842510785&fm=253&fmt=auto&app=138&f=JPEG?w=791&h=500",
+    src: "https://th.bing.com/th/id/R.e2d3fcfa822a52788acfd5867055d5eb?rik=432aP4ZwxwAhcw&riu=http%3a%2f%2fpic9.nipic.com%2f20100909%2f2243789_102653080619_2.jpg&ehk=yayD8pyu7OYr0P9ouxKL%2bi%2frC979ipvrqqc0sXZ2CY4%3d&risl=&pid=ImgRaw&r=0",
     title: "one3",
     desc: "pqrstuvw"
   },
   {
-    src: "https://img0.baidu.com/it/u=2897304993,2842510785&fm=253&fmt=auto&app=138&f=JPEG?w=791&h=500",
+    src: "https://p1.ssl.qhmsg.com/t01d541d2024a4ab849.jpg",
     title: "one3",
     desc: "pqrstuvw"
   }

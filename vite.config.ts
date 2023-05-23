@@ -8,6 +8,7 @@ import { shortcuts, rules } from "./unocss.config";
 import transformerDirectives from "@unocss/transformer-directives";
 
 export default defineConfig({
+  base: "/uniapp-store-templ",
   plugins: [
     uni(),
     Unocss({

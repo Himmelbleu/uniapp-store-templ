@@ -6,7 +6,7 @@ const itemIndex = ref(0);
   <view>
     <img
       class="source-img w-100% h-100 object-contain"
-      src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202002%2F28%2F20200228194317_jnedt.thumb.1000_0.png&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1687021473&t=c1127d751392fc3c0babed28f216e0fa" />
+      src="https://img.zcool.cn/community/0179d05e6b3db1a8012165188ebf75.jpg@1280w_1l_2o_100sh.jpg" />
   </view>
   <view bg-white mb-2 px-2 py-3 mx-2 rd-2 class="tool-tiks mt-2" px-4>
     <view f-c-b size-0.8>
