@@ -9,6 +9,7 @@ import transformerDirectives from "@unocss/transformer-directives";
 
 export default defineConfig({
   base: "/uniapp-store-templ",
+  // base: "/",
   plugins: [
     uni(),
     Unocss({

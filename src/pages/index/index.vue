@@ -31,13 +31,22 @@
         <view size-0.9 colr-1 text-ellipsis line-clamp-1>{{ item.title }}</view>
         <view size-0.8 colr-2>{{ item.desc }}</view>
       </view>
+      <view class="f-c-c mt-2">
+        <view size-0.8 colr-2 rd-2 b-solid class="b-#007AFF b-1 p-1">加入购物车</view>
+      </view>
     </view>
   </view>
 </template>
 
 <script setup lang="ts">
-const inputValue = ref();
+import img1 from "../../static/微信图片_20230523111530.png";
+import img2 from "../../static/微信图片_20230524105013.png";
+import img3 from "../../static/微信图片_20230524105018.png";
+import img4 from "../../static/微信图片_20230524105025.jpg";
+import img5 from "../../static/微信图片_20230524105030.jpg";
+import img6 from "../../static/微信图片_20230524105033.png";
 
+const inputValue = ref();
 const swiperList = [
   "https://oss-product-img.artfoxlive.com/profile-prod/201812/1545264371268_2122120_origin.jpg?x-oss-process=style/l_watermark",
   "https://oss-product-img.artfoxlive.com/202101/1609919260213_5023872.JPG?x-oss-process=style/l_watermark",
@@ -45,38 +54,38 @@ const swiperList = [
   "https://oss-product-img.artfoxlive.com/202101/1609919161805_5023879.JPG?x-oss-process=style/l_watermark"
 ];
 
-const thangkaList = [
+const thangkaList = ref([
   {
-    src: "https://oss-product-img.artfoxlive.com/profile-prod/201812/1545264371268_2122120_origin.jpg?x-oss-process=style/l_watermark",
-    title: "one1",
-    desc: "abcdefg"
+    src: img1,
+    title: "十世班禅",
+    desc: "十世班禅：藏传佛教格鲁派的重要领袖，是班禅额尔德尼。"
   },
   {
-    src: "https://oss-product-img.artfoxlive.com/202101/1609919260213_5023872.JPG?x-oss-process=style/l_watermark",
-    title: "one2",
-    desc: "hijklmo"
+    src: img2,
+    title: "千手千眼观世音",
+    desc: "千手千眼观世音：拥有无边慈悲与智慧，能同时观察和救渡众生的观世音菩萨。"
   },
   {
-    src: "https://img0.baidu.com/it/u=2897304993,2842510785&fm=253&fmt=auto&app=138&f=JPEG?w=791&h=500",
-    title: "one3",
-    desc: "pqrstuvw"
+    src: img3,
+    title: "吞弥桑布扎",
+    desc: "吞弥桑布扎：喜怒无常、具有破坏力与创造力的本性。"
   },
   {
-    src: "https://img1.artron.net/auction/2019/art514350/d/art5143500013.jpg",
-    title: "one3",
-    desc: "pqrstuvw"
+    src: img4,
+    title: "财宝天王",
+    desc: "财宝天王：守护财富与福慧的护法神。"
   },
   {
-    src: "https://th.bing.com/th/id/R.e2d3fcfa822a52788acfd5867055d5eb?rik=432aP4ZwxwAhcw&riu=http%3a%2f%2fpic9.nipic.com%2f20100909%2f2243789_102653080619_2.jpg&ehk=yayD8pyu7OYr0P9ouxKL%2bi%2frC979ipvrqqc0sXZ2CY4%3d&risl=&pid=ImgRaw&r=0",
-    title: "one3",
-    desc: "pqrstuvw"
+    src: img5,
+    title: "释迦牟尼",
+    desc: "释迦牟尼：智慧的觉者与慈悲的导师。"
   },
   {
-    src: "https://p1.ssl.qhmsg.com/t01d541d2024a4ab849.jpg",
-    title: "one3",
-    desc: "pqrstuvw"
+    src: img6,
+    title: "南海观音",
+    desc: "南海观音：慈悲简洁。"
   }
-];
+]);
 </script>
 
 <style scoped lang="scss"></style>
